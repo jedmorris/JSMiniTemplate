@@ -1,3 +1,10 @@
+:root{
+	-cf-dark-color: #212121;
+	-cf-light-color: #eeeeee;
+	-cf-primary-color: #001E43;
+	-cf-secondary-color: #ff993b
+}
+
 main>.container {
 	padding: 60px 15px 0;
 	margin-bottom: 5rem;
@@ -8,4 +15,8 @@ main>.container {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+}
+
+.navbarBG {
+	background-color: ;
 }
