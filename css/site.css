@@ -15,6 +15,37 @@ main>.container {
 	background-color: var(--cf-dark-color);
 }
 
+.checkListIcon {
+	color: var(--cf-primary-color)
+}
+
+.jsIcon {
+	color: gold;
+}
+
+.bsIcon {
+	color: purple;
+}
+
+.htmlIcon {
+	color: orangered;
+}
+
+.cssIcon {
+	color: royalblue;
+}
+
+.btn-outline-primary {
+	color: var(--cf-primary-color);
+	border-color: var(--cf-secondary-color);
+}
+
+.btn-outline-primary:hover, 
+.btn-outline-primary:focus, 
+.btn-outline-primary:active{
+	border-color: var(--cf-primary-color);
+	background-color: var(--cf-secondary-color);
+}
 /* Footer Styles */
 .footer {
 	background-color: var(--cf-dark-color);
