@@ -27,3 +27,13 @@ main>.container {
 	bottom: 0;
 	width: 100%;
 }
+
+footer .social>a {
+	color: var(--cf-light-color);
+	opacity: .75;
+}
+
+footer .social>a:hover {
+	color: var(--cf-secondary-color);
+	opacity: .90;
+}
