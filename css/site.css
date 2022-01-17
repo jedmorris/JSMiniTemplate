@@ -1,8 +1,8 @@
-:root{
-	-cf-dark-color: #212121;
-	-cf-light-color: #eeeeee;
-	-cf-primary-color: #001E43;
-	-cf-secondary-color: #ff993b
+:root {
+	--cf-dark-color: #976584;
+	--cf-light-color: #eeeeee;
+	--cf-primary-color: #001E43;
+	--cf-secondary-color: #ff993b
 }
 
 main>.container {
@@ -10,13 +10,19 @@ main>.container {
 	margin-bottom: 5rem;
 }
 
+/* Navbar Styles */
+.navbarBG {
+	background-color: var(--cf-dark-color);
+}
+
+/* Footer Styles */
+.footer {
+	background-color: var(--cf-dark-color);
+}
+
 .sticky-footer {
 	position: sticky;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-}
-
-.navbarBG {
-	background-color: ;
 }
