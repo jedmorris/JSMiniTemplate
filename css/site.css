@@ -2,7 +2,7 @@
 	--cf-dark-color: #4f4f4f;
 	--cf-light-color: #eeeeee;
 	--cf-primary-color: #001E43;
-	--cf-secondary-color: #ff993b
+	--cf-secondary-color: #ff993b;
 }
 
 main>.container {
@@ -16,7 +16,7 @@ main>.container {
 }
 
 .checkListIcon {
-	color: var(--cf-primary-color)
+	color: var(--cf-secondary-color)
 }
 
 .jsIcon {
@@ -49,7 +49,7 @@ main>.container {
 
 .btn-primary {
 	color: white !important;
-	background-color: var(--cf-secondary-color);
+	background-color: var(--cf-secondary-color) !important;
 	border-color: var(--cf-secondary-color);
 }
 
