@@ -18,6 +18,7 @@ main>.container {
 /* Footer Styles */
 .footer {
 	background-color: var(--cf-dark-color);
+	color: var(--cf-light-color);
 }
 
 .sticky-footer {
