@@ -2,7 +2,7 @@
 function getMessage() {
 	let userMessage = document.getElementById("message").value;
 	Swal.fire(
-		'The Internet?',
+		'Button Clicked!',
 		'That thing is still around?',
 		'question'
 	)
