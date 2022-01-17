@@ -15,7 +15,9 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="icon" href="/img/apple-touch-icon.png" alt="favicon">
-
+	
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -59,10 +61,12 @@
 	</nav>
 
 	<main class="flex-shrink-0">
-		<div class="container">
+		<div class="container mt-5">
 			<h1>APP UI WILL GO HERE</h1>
 			<input id="message" name="message" placeholder="Enter A Message">
-			<button id="btnSubmit" class="btn btn-primary">Display Message</button>
+			<div class="p-2">
+				<button id="btnSubmit" class="btn btn-primary">Display Message</button>
+			</div>
 		</div>
 	</main>
 	<footer class="footer mt-auto py-3 sticky-footer">
@@ -110,7 +114,10 @@
 		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
 		crossorigin="anonymous">
 	</script>
-	<script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
+	<script src="/js/site.js"></script>
+	<script>
+		document.getElementById("btnSubmit").addEventListener("click", getMessage);
+	</script>
 </body>
 
 </html>
